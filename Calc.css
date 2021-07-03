@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+
+.cal-pic {
+    width: 1300px;
+    position: fixed;
+    transform: rotate(-80deg);
+    right: 38%;
+    z-index: -1;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrap {
+    margin: 40px 75px;
+    font-family: 'KoHo';
+    color: #ebebeb;
+    font-size: 20px;
+}
+
+nav span {
+    font-family: 'Tourney', cursive;
+}
+
+nav ul {
+    display: inline-flex;
+    width: 100%;
+}
+
+nav li {
+    margin: 0px 20px;
+}
+
+.fa,
+.fas {
+    cursor: pointer;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.nav-icons {
+    font-size: 16px;
+    font-weight: 900;
+    display: inline-flex;
+    font-family: 'KoHo';
+    color: #000000;
+    margin: 0px 6px;
+}
+
+input {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid #777777;
+    padding: 0px 10px;
+}
+
+.cal-body {
+    color: #000000;
+    display: inline-flex;
+    margin: 10% 2%;
+}
+
+.cal-body-1 table {
+    margin: auto;
+}
+
+.cal-body-2 {
+    margin-left: 105px;
+    font-weight: 800;
+}
+
+.cal-body-2 p {
+    font-size: 15px;
+}
+
+#input {
+    border-radius: 3px;
+    font-size: 45px;
+    width: 500px;
+    height: 100px;
+    color: #000000;
+    background-color: #e6e6e6;
+    border: none;
+    margin-top: 6px;
+    text-align: right;
+    box-shadow: rgb(70 70 70 / 50%) 11px 14px 15px -2px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.card {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    word-wrap: break-word;
+    background-color: #ce1a1a;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+}
+
+.card p {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.card-link {
+    font-size: 10px;
+}
+
+button {
+    color: #EEEBDD;
+    border: none;
+    background-color: #141414;
+    font-size: 20px;
+    width: 100px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 10px 10px 0px;
+    box-shadow: 5px 5px 10px -1px #1d1d1db0;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+button:hover {
+    color: #292929;
+    background-color: #ffffff;
+    font-size: 20px;
+}
